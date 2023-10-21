@@ -1,0 +1,14 @@
+theme = "papercolor-light-white-bg"
+
+[editor]
+bufferline = "multiple"
+line-number = "relative"
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+right = ["file-type", "diagnostics", "selections", "position", "total-line-numbers", "file-encoding"]
