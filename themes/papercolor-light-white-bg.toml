@@ -1,4 +1,7 @@
 inherits = "papercolor-light"
 
+"ui.bufferline" = { bg = "statusline_inactive_bg", fg = "statusline_inactive_fg" }
+"ui.bufferline.active" = { bg = "statusline_active_bg", fg = "statusline_active_fg" }
+
 [palette]
 background="#ffffff"
