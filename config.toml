@@ -12,3 +12,6 @@ select = "underline"
 
 [editor.statusline]
 right = ["file-type", "diagnostics", "selections", "position", "total-line-numbers", "file-encoding"]
+
+[keys.normal]
+D = "kill_to_line_end"
